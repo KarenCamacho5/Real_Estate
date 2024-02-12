@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Real Estate</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="js/refrescar.js">
+</head>
+<body onload="bienvenida()">
+    <!-- Cabecera del sitio -->
+    <header>
+        <nav>
+            <a href="index.html"id="logo"><img src="img/Logo.png" alt="logo"></a>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Inmuebles">Inmuebles</a></li>
+                    <li><a href="#avaluos">Avaluos</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#PQRS">PQRS</a></li>
+                    <li><a href="#contacto">Contáctanos</a></li>
+                </ul>
+        </nav>
+
+        <div id="hero">
+            <div class="contenido">
+                <h1>Creemos en el valor del hogar</h1>
+                <form  id="formulario1" action="">
+                    <h3>Buscador de propiedad</h3>
+                    <label for="">Tipo de Inmueble:</label>
+                    <input type="text" placeholder="Ej:casa">
+                    <label for="">Zona:</label>
+                    <input type="text" placeholder="Ej:Oriente">
+                    <label for="">Ciudad:</label>
+                    <input type="text" placeholder="Ej:Bogotá">
+                    <button class="formulario">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!--Secciones principales del sitio  -->
+    <main>
+        <section id="Inmuebles">
+            <h2>INMUEBLES</h2>
+            <div class="contenedor">
+                <section id="apartamento">
+                    <img src="img/apartamento1.jpg" alt="Apartamento1">
+                    <h1>Arriendo</h1>
+                    <p>Código: 1234-5678</p>
+                    <p> <strong>$500.000</strong></p>
+                    <address>
+                      <p>Apartamneto en arriendo</p>
+                      <p>Restrepo, Bogotá</p>
+                      <p>Área: 54m² | Habitaciones: 2 | Baños: 1</p>
+                    </address>
+                  </section>
+                  <section id="apartamento">
+                    <img src="img/apartamento2.jpg" alt="Apartamento2">
+                    <h1>Venta</h1>
+                    <p>Código: 1345-9876</p>
+                    <p> <strong>$1'000.000</strong></p>
+                    <address>
+                      <p>Apartamneto en arriendo</p>
+                      <p>Modelia, Bogotá</p>
+                      <p>Área: 64m² | Habitaciones: 3 | Baños: 1</p>
+                    </address>
+                  </section>
+                  <section id="apartamento">
+                    <img src="img/apartamento3.jpg" alt="Apartamento3">
+                    <h1>Arriendo</h1>
+                    <p>Código: 9876-5678</p>
+                    <p><strong>$2'000.000</strong></p>
+                    <address>
+                      <p>Casa en arriendo</p>
+                      <p>Villa Nueva, Casanare</p>
+                      <p>Área: 150m² | Habitaciones: 6 | Baños: 3</p>
+                    </address>
+                  </section>
+                  <section id="apartamento">
+                    <img src="img/apartamento4.jpg" alt="Apartamento4">
+                    <h1>Venta</h1>
+                    <p>Código: 3464-9876</p>
+                    <p><strong>100'000.000</strong></p>
+                    <address>
+                      <p>Casa en Venta</p>
+                      <p>Bello, Antioquia</p>
+                      <p>Área: 154m² | Habitaciones: 9 | Baños: 5</p>
+                    </address>
+                  </section>
+                  <section id="apartamento">
+                    <img src="img/apartamento5.jpg" alt="apartamento5">
+                    <h1>Arriendo</h1>
+                    <p>Código: 8722-9287</p>
+                    <p><strong>$800.000</strong></p>
+                    <address>
+                      <p>casa en arriendo</p>
+                      <p>Paipa, Boyaca</p>
+                      <p>Área: 100m² | Habitaciones: 4 | Baños: 3</p>
+                    </address>
+                  </section>
+                  <section id="apartamento">
+                    <img src="img/apartamento6.jpg" alt="apartamento6">
+                    <h1>Venta</h1>
+                    <p>Código: 3987-2098</p>
+                    <p><strong>$50'000.000</strong></p>
+                    <address>
+                      <p>Apartamneto en Venta</p>
+                      <p>Martires, Bogotá</p>
+                      <p>Área: 74m² | Habitaciones: 3 | Baños: 2</p>
+                    </address>
+                  </section>
+                  <div class="mapa">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39472163125!2d-74.27262418441347!3d4.648620641470583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1707415282670!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="avaluos">
+          <H2>Avalúos de Inmuebles</H2>
+          <h3 class="descripcion">Profesionales expertos estimarán el precio comercial de tu propiedad.</h3>
+          <p class="p1">Contamos con un grupo de profesionales avaluadores certificados, vinculados a la Lonja de Propiedad Raíz de Bogotá e inscritos en el Registro Nacional de Avaluadores de la Superintendencia de Industria y Comercio y al Registro Abierto de Avaluadores (RAA) con amplia experiencia en avalúos urbanos.</p>
+                <h4>Avalúos con normas NIIF</h4>
+                <p>Avalúos de inmuebles urbanos y rurales bajo normas NIIF.</p>
+                <h4>Avaluadores de certificados</h4>
+                <p>Peritos certificados con el RNA y RAA.</p>
+                <h4>Avalúos a otras ramas como</h4>
+                <p>Maquinaria equipo y activos fijos de las Empresas; trabajo que permite conocer el valor comercial de tus bienes y al mismo tiempo estimar estos valores con el objeto de dar cumplimiento al Decreto 2649 de 1993.</p>
+                <h4>Informes de alta calidad</h4>
+                <p>Soportados en completos estudios de mercado sobre el sector de ubicación de tu inmueble.</p>
+                   
+                <form  id="formulario2"action="">
+                    <h3>Información</h3>
+                        <label for="">Nombre:</label>
+                        <input type="text" placeholder="Nombre*">
+                        <label for="">Telefono:</label>
+                        <input type="number" placeholder="Ej: 3214567687">
+                        <label for="">Correo:</label>
+                        <input type="email" placeholder="Ej:RealState@gmail.com ">
+                        <label for="">Asunto</label>
+                        <input type="text">
+                        <label for="">Mensaje</label>
+                        <input type="text">
+                        <button class="formulario2">Enviar</button>
+                </form>
+        </section>
+        </section>
+        <section id="Servicios">
+          <h2>SERVICIOS</h2>
+          <H3>Tenemos servicios integrales a tu disposición para maximizar el valor de tu inmueble</H3>
+          <P class="descripcion">Desde avaluos precisos y estrategias de arriendo y venta efectivas, hasta oportunidades en rentas vacacionales y proyectos de construcción innovadores. Nuestro experimentado equipo te asegurará resultados excepcionales, brindándote tranquilidad y éxito en el dinámico mercado inmobiliario.</P>
+          <div class="fila">
+            <div class="servicio">
+              <h3>Avalúos Precisos</h3>
+              <p>Evalúa el valor real de tu propiedad con nuestros expertos en avaluos. Obtén información precisa que te permitirá tomar decisiones informadas sobre venta, compra o inversión. ¡Descubre el valor oculto de tu propiedad hoy mismo!</p>
+            </div>
+            <div class="servicio">
+              <h3>Rentas vacacionales</h3>
+              <p>Maximiza tus ganancias con rentas vacacionales de corta duración. Nuestro equipo se encarga de todo, desde la promoción hasta la gestión, para que disfrutes de un flujo constante de ingresos. ¡Convierte tu propiedad en una fuente de ganancias hoy mismo!</p>
+            </div>
+          </div>
+          <div class="fila2">
+            <div class="servicio">
+              <h3>Proyectos Nuevos de construcción</h3>
+              <p>Imagina tu hogar ideal y déjanos hacerlo realidad. Nuestros proyectos de construcción a la medida te brindan la oportunidad de crear la residencia perfecta. ¡Comienza a diseñar tu futuro hoy y construyamos juntos tus sueños!</p>
+            </div>
+            <div class="servicio">
+              <h3>Cortaje Profesinal</h3>
+              <p>Confía en nuestros agentes expertos para negociar y cerrar las mejores transacciones inmobiliarias. Ya sea que compres, vendas o inviertas, estamos aquí para guiar cada paso. ¡Convierte tus metas en realidad con nuestro corretaje de excelencia!</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="Blog">
+          <h2>Blog</h2>
+            <div class="fila">
+              <div class="noticia">
+                  <img class="imagenes" src="img/noticia1.jpg" alt="Noticia1">
+                  <hr>
+                  <h3>Entregar un inmueble en arriendo: ¿Qué debo saber como arrendatario? Ley 820 de 2003</h3>
+                  <p>La decisión de entregar un inmueble en arriendo no es algo que se tome a la ligera. Tanto arrendadores como arrendatarios deben cumplir con las regulaciones legales para garantizar una transición sin problemas. Si eres un arrendatario en Bogotá que planea entregar un inmueble, es esencial comprender las pautas...</p>
+                  <button>Ver más</button>
+              </div>
+              <div class="noticia ">
+                <img  class="imagenes" src="img/noticia2.jpg" alt="noticia2">
+                <hr>
+                <h3>Desprotegidos frente a temblores: Solo un 3% de Colombianos cuenta con seguro de vivienda</h3>
+                <p>El reciente temblor del 17 de agosto en El Calvario, Meta, junto con otros sismos, ha resaltado la persistente amenaza sísmica en Colombia, donde ocurren aproximadamente 2,500 movimientos telúricos al mes debido a la interacción de las placas tectónicas. El país se enfrenta a la realidad de los temblores, con un saldo casi constante de casi 3 temblores por hora, según datos del Servicio Geológico Colombiano (SGC)</p>
+                <button >Ver más</button>
+              </div>
+            </div>
+            <div class="fila2">
+              <div class="noticia ">
+                <img class="imagenes" src="img/noticia3.jpg" alt="noticia3">
+                <hr>
+                <h3>Seguro de Hogar</h3>
+                <p>Tu casa es el resultado de muchos años de esfuerzo. Por eso, con esta cobertura y servicio, podrás proteger tu inmueble y a tu familia ante cualquier eventualidad que pueda afectar el bienestar de tu hogar protecion, reparación y asistencia 24horas.</p>
+                <button>Ver más</button>
+              </div>
+              <div class="noticia">
+                <img  class="imagenes" src="img/noticia4.jpg" alt="noticia4">
+                <hr>
+                <h3>Más allá de la venta: Descubre por qué el arrendamiento puede ser tu mejor opción</h3>
+                <p>En el dinámico mundo inmobiliario, tomar decisiones estratégicas es crucial para maximizar el potencial de tu inversión. En el actual panorama inmobiliario, existe una alternativa cada vez más atractiva: el arrendamiento. Descubre por qué el arrendamiento puede ser tu mejor opción, y cómo puede brindarte beneficios</p>
+                <button>Ver más</button>
+
+              </div>
+            </div>
+        </section>
+
+        <section id="PQRS">
+          <h2>  PQRS</h2>
+          <h3 class="descripcion2">Para REAL STATE es muy importante contar con la satisfacción de nuestros clientes, por ello este espacio fue creado para que nos informes tus peticiones, quejas, reclamos, sugerencias y felicitaciones.</h3>
+          <ul>
+            <ol>Debes relacionar la información correspondiente al titular del contrato.</ol>
+            <ol>Digita tu número de identificación, la página te traerá la información del inmueble.</ol>
+            <ol>Diligencia los campos siguientes de acuerdo con tu tipo de solicitud (Tu solicitud deberá ser detallada y clara).</ol>
+            <ol>Tu solicitud será evaluada por parte de AR INMOBILIARIA y estará sujeta a aprobación.</ol>
+            <ol>
+              Los tiempos de respuesta a tu requerimiento serán desde 2 a 3 días hábiles, a partir de la fecha de radicación.</ol>
+            <ol>
+              Recibirás una notificación al correo electrónico registrado en nuestro sistema en el cual podrás hacer seguimiento a tu requerimiento y encontrarás en tiempo real del estado de tu solicitud</ol>
+            <ol>
+              Podrás conocer el estado de tu requerimiento en nuestro <strong> Chat de WhatsApp </strong> donde uno de nuestros ejecutivos podrá brindarte asesoría en tiempo real.</ol>
+          </ul>
+          <form id="formulario3" action="">
+            <h3>Información del Inmueble</h3>
+            <label for="">Correo/Cedula:</label>
+              <input type="email">
+             <label for=""> Inmuebles</label>
+             <input type="text"> 
+             <label for="">Tipo de solicitud</label>
+             <input type="text">
+             <label for="">Ubicación</label>
+             <input type="text">
+             <label for="">Asunto</label>
+             <input type="text">
+             <button>Enviar</button>
+          </form>
+        </section>
+        <section id="contacto">
+          <h2>CONTACTO</h2>
+          <p>Comparte con nosotros tus datos de contacto y te enviaremos <br>
+              toda la informacón de los medios de pagos.
+          </p>
+          <form action="#">
+              <div class="fila">
+                  <input type="text" placeholder="Nombres: ">
+                  <input type="number" placeholder="Telefono: ">
+              </div>
+              <div class="fila">
+                  <input type="email" placeholder="Email: ">
+                  <select name="" id="">
+                      <option value="">Ciudad</option>
+                      <option value="Bogotá">Bogotá</option>
+                      <option value="Medellin">Medellin</option>
+                      <option value="Cali">Cali</option>
+                  </select>
+              </div>
+              <button>ENVIAR</button>
+          </form>
+      </section>
+    </main>
+    <footer>
+      <p>© Todos los derechos reservados</p>
+        <p>contacto@realstate.com</p>
+        <p>+57 3212444445</p>
+        <p>Cr 9 #93 - 20</p>
+        <p>Karen Jhojana Camacho Castellanos</p>
+    </footer>
+  <script src="js/refrescar.js">
+  </script>
+</body>
+</html>
